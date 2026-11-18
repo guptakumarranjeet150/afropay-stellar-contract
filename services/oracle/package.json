@@ -6,7 +6,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "node --experimental-vm-modules node_modules/.bin/jest --runInBand --forceExit",
     "test:ci": "node --experimental-vm-modules node_modules/.bin/jest --runInBand --forceExit --ci"
   },
